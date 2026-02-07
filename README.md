@@ -63,8 +63,9 @@ docker compose up --build
     │   ├── Dockerfile
     │   ├── requirements.txt
     │   └── app/
-    │       ├── main.py
-    │       ├── database.py
+    │       ├── core/
+    │       ├── middleware/
+    │       ├── database/
     │       ├── models/
     │       ├── routes/
     │       ├── schemas/
@@ -88,6 +89,7 @@ docker compose up --build
     │       ├── utils/
     │       ├── App.jsx
     │       └── main.jsx
+
 
 
 
