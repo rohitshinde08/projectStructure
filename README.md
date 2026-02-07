@@ -44,7 +44,14 @@
 ### Run with Docker (Recommended)
 
 ```bash
+
 docker compose up --build
+```
+
+---
+
+## 📂Folder Structure
+
    
    
     Project Directory/
@@ -80,6 +87,7 @@ docker compose up --build
     │       ├── utils/
     │       ├── App.jsx
     │       └── main.jsx
+
 
 
 
