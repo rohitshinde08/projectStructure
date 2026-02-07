@@ -1,46 +1,51 @@
-Versions
+## 🧩 Tech Stack Overview
 
-
----
-Frontend
-
-Node.js: 20.x (LTS)
-
-React: 18.x
-
-npm: Bundled with Node.js 20.x
-
-
----
-Backend
-
-Python: 3.11.x
-
-FastAPI: >= 0.110.0
-
-Uvicorn: >= 0.27.0
-
-
----
-Database
-
-PostgreSQL: 15.x
-
-MongoDB: Cloud-hosted (MongoDB Atlas – latest stable)
+### 🌐 Frontend
+- **Node.js:** 20.x (LTS)
+- **React:** 18.x
+- **npm:** Bundled with Node.js 20.x
+- **Build Tool:** Vite
 
 ---
 
-Containerization
+### ⚙️ Backend
+- **Python:** 3.11.x
+- **FastAPI:** ≥ 0.110.0
+- **Uvicorn:** ≥ 0.27.0
 
-Docker Engine: 24.x+
+---
 
-Frontend Base Image: node:20-alpine
+### 🗄️ Databases
+- **PostgreSQL:** 15.x  
+  *(Primary relational database)*
+- **MongoDB:** Cloud-hosted  
+  *(MongoDB Atlas – latest stable, used for flexible / document-based data)*
 
-Alpine Linux: 3.19
+---
 
-Backend Base Image: python:3.11-slim
+### 🐳 Containerization & OS
+- **Docker Engine:** 24.x+
+- **Frontend Base Image:** `node:20-alpine`
+- **Backend Base Image:** `python:3.11-slim`
+- **Alpine Linux:** 3.19
+- **Base OS:** Debian (stable)
 
-Base OS: Debian (stable)
+---
+
+
+## ▶️ Getting Started
+
+### Prerequisites
+- Docker & Docker Compose
+- Node.js 20.x (for local frontend development)
+- Python 3.11.x (for local backend development)
+
+---
+
+### Run with Docker (Recommended)
+
+```bash
+docker compose up --build
    
    
     Project Directory/
@@ -76,4 +81,5 @@ Base OS: Debian (stable)
     │       ├── utils/
     │       ├── App.jsx
     │       └── main.jsx
+
 
