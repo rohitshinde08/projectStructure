@@ -27,7 +27,6 @@
 - **Docker Engine:** 24.x+
 - **Frontend Base Image:** `node:20-alpine`
 - **Backend Base Image:** `python:3.11-slim`
-- **Alpine Linux:** 3.19
 - **Base OS:** Debian (stable)
 
 ---
@@ -81,5 +80,6 @@ docker compose up --build
     │       ├── utils/
     │       ├── App.jsx
     │       └── main.jsx
+
 
 
