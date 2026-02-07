@@ -68,7 +68,8 @@ docker compose up --build
     │       ├── models/
     │       ├── routes/
     │       ├── schemas/
-            ├── utils/
+    │       ├── services/
+    │       ├── utils/
     │       └── main.py
     │
     ├── frontend/
@@ -83,10 +84,11 @@ docker compose up --build
     │       │   ├── admin/
     │       │   ├── student/
     │       │   └── superAdmin/
-    │       ├── services/
+    │       ├── layouts/
     │       ├── utils/
     │       ├── App.jsx
     │       └── main.jsx
+
 
 
 
