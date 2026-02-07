@@ -1,3 +1,27 @@
+Versions
+
+Frontend
+Node.js: 20.x (LTS)
+React: 18.x
+npm: Bundled with Node.js 20.x
+
+Backend
+Python: 3.11.x
+FastAPI: >= 0.110.0
+Uvicorn: >= 0.27.0
+
+Database
+PostgreSQL: 15.x
+MongoDB: Cloud-hosted (MongoDB Atlas – latest stable)
+
+Containerization
+Docker Engine: 24.x+
+Frontend Base Image: node:20-alpine
+Alpine Linux: 3.19
+Backend Base Image: python:3.11-slim
+Base OS: Debian (stable)
+   
+   
     Project Directory/
     ├── docker-compose.yaml
     ├── docker-compose.local.yaml
